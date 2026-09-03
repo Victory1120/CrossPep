@@ -1,0 +1,19 @@
+# Core numerical/data stack
+numpy>=1.21
+pandas>=1.3
+openpyxl>=3.0
+scikit-learn>=1.0
+
+# Deep learning and pretrained model loading
+# If you need a specific CUDA build, install PyTorch from:
+# https://pytorch.org/get-started/locally/
+torch>=1.12
+transformers>=4.25
+
+# Training utilities and configuration
+tqdm>=4.62
+yacs>=0.1.8
+prettytable>=3.0
+
+# Optional experiment tracking. The code handles its absence.
+# comet-ml>=3.0
